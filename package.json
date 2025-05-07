@@ -2,14 +2,14 @@
   "name": "mg_modal",
   "version": "1.0.0",
   "description": "A simple and reusable React modal component",
-  "main": "dist/index.js",
+  "type": "module",
+  "main": "dist/mg_modal.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "webpack",
-    "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "test": "vite preview"
   },
   "keywords": [
     "react",
@@ -29,15 +29,9 @@
     "react-dom": ">=16.8.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
-    "@babel/preset-env": "^7.27.1",
-    "@babel/preset-react": "^7.27.1",
-    "babel-loader": "^10.0.0",
-    "css-loader": "^7.1.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "style-loader": "^4.0.0",
-    "webpack": "^5.99.7",
-    "webpack-cli": "^6.0.1"
+    "@vitejs/plugin-react": "^4.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.4.5"
   }
 }
