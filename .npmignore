@@ -1,14 +1,6 @@
 # Source files
 src/
 
-# Examples
-example/
-
-# Configuration files
-.babelrc
-babel.config.js
-webpack.config.js
-
 # Development files
 node_modules/
 .DS_Store
