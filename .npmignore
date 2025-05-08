@@ -1,6 +1,3 @@
-# Source files
-src/
-
 # Development files
 node_modules/
 .DS_Store

@@ -1,6 +1,6 @@
 {
   "name": "mg_modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and reusable React modal component",
   "type": "module",
   "main": "dist/mg_modal.js",
@@ -18,10 +18,10 @@
     "component",
     "ui"
   ],
-  "author": "Your Name",
+  "author": "Manel Gasmi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mg_modal"
+    "url": "https://github.com/manelgasmi/mg_modal"
   },
   "license": "MIT",
   "peerDependencies": {
