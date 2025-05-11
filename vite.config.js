@@ -1,9 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    cssInjectedByJsPlugin()
+  ],
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.js'),
@@ -18,8 +22,6 @@ export default defineConfig({
           'react-dom': 'ReactDOM'
         }
       }
-    },
-    // This ensures CSS is included in the bundle
-  cssCodeSplit: false
+    }
   }
 });
