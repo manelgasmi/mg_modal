@@ -18,6 +18,8 @@ export default defineConfig({
           'react-dom': 'ReactDOM'
         }
       }
-    }
+    },
+    // This ensures CSS is included in the bundle
+  cssCodeSplit: false
   }
 });

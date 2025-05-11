@@ -1,5 +1,5 @@
 import React from 'react';
-import './MgModal.css';
+import './style.css';
 
 const MgModal = ({ isOpen, setIsOpen, title, body }) => {
   if (!isOpen) {
