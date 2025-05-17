@@ -2,6 +2,15 @@
 
 A simple React modal component.
 
+## Requirements
+
+- **Node.js version:** `>=16.x`
+- **Package manager:** [npm](https://www.npmjs.com/)
+- **Recommended editor:** [Visual Studio Code](https://code.visualstudio.com/)
+
+
+
+
 ## Installation
 
 ```bash
@@ -34,12 +43,23 @@ const App() => {
 
 ## Props
 
-| Prop | Description |
-|------|-------------|
-| `isOpen` | Controls modal visibility |
-| `setIsOpen` | State setter function to update visibility |
-| `title` | Modal title (optional) |
-| `body` | Modal content |
+| Prop | type | Description |
+|------|-----|-----------|
+| `isOpen` | boolean| Controls modal visibility |
+| `setIsOpen` |function| State setter function to update visibility |
+| `title` | string|Modal title (optional) |
+| `body` |string| Modal content |
+
+## Development
+
+To clone the component locally
+
+```bash
+# Clone the repository
+git clone https://github.com/manelgasmi/mg_modal.git
+
+```
+
 
 ## License
 
