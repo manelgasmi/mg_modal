@@ -22,6 +22,7 @@ const MgModal = ({ isOpen, setIsOpen, title, body }) => {
         <button className="modal-close" onClick={handleClose}>
           ×
         </button>
+        {/* If title exists, display it in the modal */}
         {title && (
           <div className="modal-header">
             <h2 className="modal-title">{title}</h2>

@@ -15,11 +15,10 @@ export default defineConfig({
       fileName: 'mg_modal'
     },
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ['react'],
       output: {
         globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM'
+          react: 'React'
         }
       }
     }
